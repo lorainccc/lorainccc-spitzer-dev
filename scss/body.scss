@@ -1,0 +1,16 @@
+/*!
+Section 3: Body
+*/
+
+body {
+	font-family: $body-font-family;
+}
+
+
+.row {
+	max-width: $grid-row-width;
+}
+
+.off-canvas-content {
+	box-shadow: none;
+}
