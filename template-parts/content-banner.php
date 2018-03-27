@@ -221,7 +221,7 @@ else:
 
 	endif;
 
-	$banner_title = get_field('banner_headline', $id);
+	$banner_title = '<h1>' . get_field('banner_headline', $id) . '</h1>';
 
 	if( !isset($banner_title) || empty($banner_title) ) :
 
