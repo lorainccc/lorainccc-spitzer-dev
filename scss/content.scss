@@ -94,43 +94,8 @@ hr.shadow-divider {
 	width: 100%;
 	max-width: $grid-row-width;
 	color: $white;
-<<<<<<< HEAD
 	background: rgba( $black, .25);
 	
-=======
-<<<<<<< HEAD
-	background: rgba( $black, .25);
-	
-=======
-	
-	&::before, &::after {
-		position: absolute;
-		content: '';
-		width: 100%;
-	}
-	
-	&::before {
-		top: -0.5rem;
-		height: 1rem;
-	}
-	
-	&::after {
-		content: '';
-		height: .5rem;
-		top: 1px;
-		background: $white;
-	}
-	
-	&, &::before {
-		background: -moz-radial-gradient(center, ellipse cover, rgba($black, 0.1) 0%, rgba($black, 0) 75%);
-		background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%,rgba($black, 0.1)), color-stop(75%,rgba($black, 0)));
-		background: -webkit-radial-gradient(center, ellipse cover, rgba($black, 0.1) 0%,rgba($black, 0) 75%);
-		background: -o-radial-gradient(center, ellipse cover, rgba($black, 0.1) 0%,rgba($black, 0) 75%);
-		background: -ms-radial-gradient(center, ellipse cover, rgba($black, 0.1) 0%,rgba($black, 0) 75%);
-		background: radial-gradient(ellipse at center, rgba($black, 0.1) 0%,rgba($black, 0) 75%);
-	}
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 }
 
 .reveal-overlay {
@@ -336,25 +301,11 @@ main a:not(.button):hover {
 				weight: $font-medium;
 				size: 1.5rem;
 			}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 			background-color: tint($charcoal, 85%);
 			color: $charcoal;
 			
 			&:hover, &:focus, &:active {
 				background-color: tint($charcoal, 65%);
-<<<<<<< HEAD
-=======
-=======
-			background-color: tint($spitzer, 85%);
-			color: $medium-blue;
-			
-			&:hover, &:focus, &:active {
-				background-color: tint($spitzer, 65%);
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 				text-decoration: none;
 			}
 			
@@ -367,15 +318,7 @@ main a:not(.button):hover {
 			margin-top: .25rem;
 			margin-bottom: .25rem;
 			
-<<<<<<< HEAD
 			border: 2px solid tint($charcoal, 65%);
-=======
-<<<<<<< HEAD
-			border: 2px solid tint($charcoal, 65%);
-=======
-			border: 2px solid tint($spitzer, 65%);
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 		}
 	}
 }
@@ -394,40 +337,18 @@ main a:not(.button):hover {
 				weight: $font-medium;
 			}
 			
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 			background: tint($charcoal, 85%);
 			color: $charcoal;
 			
 			&:hover, &:active, &:focus {
 				background-color: tint($charcoal, 65%);
-<<<<<<< HEAD
-=======
-=======
-			background: tint($spitzer, 85%);
-			color: $medium-blue;
-			
-			&:hover, &:active, &:focus {
-				background-color: tint($spitzer, 65%);
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 				text-decoration: none;
 			}
 		}
 		
 		&.is-active {
 			a {
-<<<<<<< HEAD
 				background: tint($charcoal, 65%);
-=======
-<<<<<<< HEAD
-				background: tint($charcoal, 65%);
-=======
-				background: tint($spitzer, 65%);
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 			}
 		}
 	}
@@ -441,15 +362,7 @@ main a:not(.button):hover {
 }
 
 .tabs-content {
-<<<<<<< HEAD
 	border: 2px solid tint($charcoal, 65%);
-=======
-<<<<<<< HEAD
-	border: 2px solid tint($charcoal, 65%);
-=======
-	border: 2px solid tint($spitzer, 65%);
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 }
 
 /* Standard Intro */
@@ -516,15 +429,7 @@ main a:not(.button):hover {
 	.tour-form, .contact-form {
 		
 		@media screen and (min-width: 40em) {
-<<<<<<< HEAD
 			border-left: 1px solid rgba( $black, .25);
-=======
-<<<<<<< HEAD
-			border-left: 1px solid rgba( $black, .25);
-=======
-			border-left: 2px solid $charcoal;
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 			padding-left: 4rem;
 		}
 		
@@ -561,10 +466,6 @@ main a:not(.button):hover {
 
 	}
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 
 #contact {
 	h2 {
@@ -576,11 +477,6 @@ main a:not(.button):hover {
 		color: $spitzer;
 	}
 }
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 /******************************
 2.3 HOME PAGE STYLES
 ******************************/
@@ -1232,32 +1128,13 @@ main a:not(.button):hover {
 2.5 AUDIENCE TEMPLATE STYLES
 ******************************************/
 
-<<<<<<< HEAD
 .spitzer-h3 {
-=======
-<<<<<<< HEAD
-.spitzer-h3 {
-=======
-.orange-h3 {
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 	font: {
 		weight: $font-bold;
 		size: 1.5625rem;
 	}
-<<<<<<< HEAD
 	text-transform: none;		
 	color: $gold;
-=======
-<<<<<<< HEAD
-	text-transform: none;		
-	color: $gold;
-=======
-			
-	color: $teal;
-	text-transform: uppercase;
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 	margin-top: 1.25rem;
 	margin-bottom: 0;
 }
@@ -1326,17 +1203,8 @@ main a:not(.button):hover {
 	
 	h3 {
 		font-size: 1.3125rem;
-<<<<<<< HEAD
 		font-weight: $font-bold;
 		color: $gold;
-=======
-<<<<<<< HEAD
-		font-weight: $font-bold;
-		color: $gold;
-=======
-		color: $teal;
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 		margin-bottom: .3rem;
 	}
 	
@@ -1420,15 +1288,7 @@ main a:not(.button):hover {
 					//transform: uppercase;
 					decoration: underline;
 				}
-<<<<<<< HEAD
 				color: $spitzer;
-=======
-<<<<<<< HEAD
-				color: $spitzer;
-=======
-				color: $teal;
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 				padding: .25rem 0;
 				display: block;
 			}
@@ -1470,25 +1330,12 @@ main a:not(.button):hover {
 .blog-archive-item, .events-archive-item {
 	h2 {
 		font-size: 1.8125rem;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 		font-weight: $font-medium;
 		margin-bottom: 0;
 		
 		a, a:hover { 
 			color: $charcoal;
 			
-<<<<<<< HEAD
-=======
-=======
-		margin-bottom: 0;
-		
-		a { 
-			color: $dark-blue;
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 		}
 	}
 	
@@ -1505,22 +1352,10 @@ main a:not(.button):hover {
 .post-taxonomies, .event-taxonomy-links {
 	a {
 		font-weight: $font-semibold;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 		color: $gold;
 		&:hover {
 			text-decoration: underline;
 			color: $gold;
-<<<<<<< HEAD
-=======
-=======
-		color: $teal;
-		&:hover {
-			text-decoration: underline;
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 		}
 		
 	}
@@ -1533,17 +1368,8 @@ main a:not(.button):hover {
 	box-sizing: border-box;
 	
 	h1 {
-<<<<<<< HEAD
 		color: $charcoal;
 		font-weight: $font-medium;
-=======
-<<<<<<< HEAD
-		color: $charcoal;
-		font-weight: $font-medium;
-=======
-		color: $dark-blue;
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 		line-height: 100%;
 		}
 		
@@ -1565,10 +1391,6 @@ main a:not(.button):hover {
 		
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 aside, .ss-sidebar {
 	h2 {
 		font-weight: $font-medium !important;
@@ -1578,12 +1400,6 @@ aside, .ss-sidebar {
 .comments-title {
 	font-weight: $font-medium;
 }
-<<<<<<< HEAD
-=======
-=======
-
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 
 
 /*******************************************
@@ -1601,15 +1417,7 @@ aside, .ss-sidebar {
 		weight: $font-bold !important;
 	}
 	
-<<<<<<< HEAD
 	color: $spitzer !important;
-=======
-<<<<<<< HEAD
-	color: $spitzer !important;
-=======
-	color: $teal !important;
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 }
 
 .gsc-result .gs-title {
@@ -1656,39 +1464,17 @@ aside, .ss-sidebar {
 #event-content {
 	h1 {
 		font-weight: $font-regular;
-<<<<<<< HEAD
 		color: $charcoal;
 		padding-right: 1.5rem;
-=======
-<<<<<<< HEAD
-		color: $charcoal;
-		padding-right: 1.5rem;
-=======
-		color: $dark-blue;
-		padding-right: 1.5rem;
-		border-bottom: 2px solid $teal;
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 		margin-bottom: 1rem;
 		display: inline-block;
 	}
 	
 	h2.subheading {
 		font-size: 1.25rem;
-<<<<<<< HEAD
 		color: $spitzer;
 		font-weight: $font-semibold;
 		font-style: italic;
-=======
-<<<<<<< HEAD
-		color: $spitzer;
-		font-weight: $font-semibold;
-		font-style: italic;
-=======
-		text-transform: uppercase;
-		color: $spitzer;
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 	}
 	
 }
@@ -1703,15 +1489,7 @@ aside, .ss-sidebar {
 	
 	a {
 		span {
-<<<<<<< HEAD
 			color: $spitzer;
-=======
-<<<<<<< HEAD
-			color: $spitzer;
-=======
-			color: $teal;
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 			&:hover {
 				text-decoration: underline;
 			}
@@ -1734,16 +1512,7 @@ aside, .ss-sidebar {
 			weight: $font-bold;
 		}
 		
-<<<<<<< HEAD
 		color: $gold;
-=======
-<<<<<<< HEAD
-		color: $gold;
-=======
-		text-transform: uppercase;
-		color: $teal;
->>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
->>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 	}
 	
 	.menu > li > a {
