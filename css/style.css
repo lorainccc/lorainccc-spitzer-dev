@@ -386,8 +386,31 @@ hr.shadow-divider {
   margin: 4rem auto;
   width: 100%;
   max-width: 81.25rem;
+<<<<<<< HEAD
   color: #fefefe;
   background: rgba(10, 10, 10, 0.25); }
+=======
+  color: #fefefe; }
+  hr.shadow-divider::before, hr.shadow-divider::after {
+    position: absolute;
+    content: '';
+    width: 100%; }
+  hr.shadow-divider::before {
+    top: -0.5rem;
+    height: 1rem; }
+  hr.shadow-divider::after {
+    content: '';
+    height: .5rem;
+    top: 1px;
+    background: #fefefe; }
+  hr.shadow-divider, hr.shadow-divider::before {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(10, 10, 10, 0.1) 0%, rgba(10, 10, 10, 0) 75%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%, rgba(10, 10, 10, 0.1)), color-stop(75%, rgba(10, 10, 10, 0)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(10, 10, 10, 0.1) 0%, rgba(10, 10, 10, 0) 75%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(10, 10, 10, 0.1) 0%, rgba(10, 10, 10, 0) 75%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(10, 10, 10, 0.1) 0%, rgba(10, 10, 10, 0) 75%);
+    background: radial-gradient(ellipse at center, rgba(10, 10, 10, 0.1) 0%, rgba(10, 10, 10, 0) 75%); }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 
 .reveal-overlay {
   background-color: rgba(0, 0, 0, 0.85); }
@@ -513,17 +536,28 @@ main a:not(.button):hover {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
+<<<<<<< HEAD
     background-color: #dfdfdf;
     color: #2d2d2d; }
     .accordion .accordion-item .accordion-title:hover, .accordion .accordion-item .accordion-title:focus, .accordion .accordion-item .accordion-title:active {
       background-color: #b5b5b5;
+=======
+    background-color: #f1dddb;
+    color: #0055a4; }
+    .accordion .accordion-item .accordion-title:hover, .accordion .accordion-item .accordion-title:focus, .accordion .accordion-item .accordion-title:active {
+      background-color: #e0b0ad;
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
       text-decoration: none; }
     .accordion .accordion-item .accordion-title::before {
       margin-top: -.65rem; }
   .accordion .accordion-item .accordion-content {
     margin-top: .25rem;
     margin-bottom: .25rem;
+<<<<<<< HEAD
     border: 2px solid #b5b5b5; }
+=======
+    border: 2px solid #e0b0ad; }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 
 .tabs {
   border: none; }
@@ -533,6 +567,7 @@ main a:not(.button):hover {
       font-family: "Raleway", sans-serif;
       font-size: 1.25rem;
       font-weight: 500;
+<<<<<<< HEAD
       background: #dfdfdf;
       color: #2d2d2d; }
       .tabs .tabs-title a:hover, .tabs .tabs-title a:active, .tabs .tabs-title a:focus {
@@ -540,11 +575,24 @@ main a:not(.button):hover {
         text-decoration: none; }
     .tabs .tabs-title.is-active a {
       background: #b5b5b5; }
+=======
+      background: #f1dddb;
+      color: #0055a4; }
+      .tabs .tabs-title a:hover, .tabs .tabs-title a:active, .tabs .tabs-title a:focus {
+        background-color: #e0b0ad;
+        text-decoration: none; }
+    .tabs .tabs-title.is-active a {
+      background: #e0b0ad; }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
   .tabs li:not(:last-child) {
     margin-right: .25rem; }
 
 .tabs-content {
+<<<<<<< HEAD
   border: 2px solid #b5b5b5; }
+=======
+  border: 2px solid #e0b0ad; }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 
 /* Standard Intro */
 .section-title-row .standard-intro h2.h2-subheading {
@@ -576,7 +624,11 @@ main a:not(.button):hover {
   margin-bottom: 1.5rem; }
 @media screen and (min-width: 40em) {
   #visit-spitzer .tour-form, #visit-spitzer .contact-form, #contact .tour-form, #contact .contact-form {
+<<<<<<< HEAD
     border-left: 1px solid rgba(10, 10, 10, 0.25);
+=======
+    border-left: 2px solid #2d2d2d;
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
     padding-left: 4rem; } }
 @media screen and (max-width: 39.9375em) {
   #visit-spitzer .tour-form, #visit-spitzer .contact-form, #contact .tour-form, #contact .contact-form {
@@ -596,12 +648,15 @@ main a:not(.button):hover {
     #visit-spitzer .gform_wrapper .gform_footer input.button:not(.hollow):hover, #visit-spitzer .gform_wrapper .gform_footer input[type=submit]:not(.hollow):hover, #visit-spitzer .gform_wrapper .gform_page_footer input.button:not(.hollow):hover, #visit-spitzer .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow):hover, #contact .gform_wrapper .gform_footer input.button:not(.hollow):hover, #contact .gform_wrapper .gform_footer input[type=submit]:not(.hollow):hover, #contact .gform_wrapper .gform_page_footer input.button:not(.hollow):hover, #contact .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow):hover {
       background-color: #966e29; }
 
+<<<<<<< HEAD
 #contact h2 {
   font-size: 1.8125rem;
   font-weight: 600;
   font-style: italic;
   color: #a81f17; }
 
+=======
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 /******************************
 2.3 HOME PAGE STYLES
 ******************************/
@@ -958,11 +1013,19 @@ main a:not(.button):hover {
 /******************************************
 2.5 AUDIENCE TEMPLATE STYLES
 ******************************************/
+<<<<<<< HEAD
 .spitzer-h3 {
   font-weight: 700;
   font-size: 1.5625rem;
   text-transform: none;
   color: #a6792c;
+=======
+.orange-h3 {
+  font-weight: 700;
+  font-size: 1.5625rem;
+  color: #0d8896;
+  text-transform: uppercase;
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
   margin-top: 1.25rem;
   margin-bottom: 0; }
 
@@ -1001,8 +1064,12 @@ main a:not(.button):hover {
   box-sizing: border-box; }
   .alternating-row h3 {
     font-size: 1.3125rem;
+<<<<<<< HEAD
     font-weight: 700;
     color: #a6792c;
+=======
+    color: #0d8896;
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
     margin-bottom: .3rem; }
   @media screen and (max-width: 39.9375em) {
     .alternating-row img {
@@ -1055,7 +1122,11 @@ main a:not(.button):hover {
     font-size: 1rem;
     font-weight: 600;
     text-decoration: underline;
+<<<<<<< HEAD
     color: #a81f17;
+=======
+    color: #0d8896;
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
     padding: .25rem 0;
     display: block; }
 
@@ -1078,10 +1149,16 @@ main a:not(.button):hover {
 
 .blog-archive-item h2, .events-archive-item h2 {
   font-size: 1.8125rem;
+<<<<<<< HEAD
   font-weight: 500;
   margin-bottom: 0; }
   .blog-archive-item h2 a, .blog-archive-item h2 a:hover, .events-archive-item h2 a, .events-archive-item h2 a:hover {
     color: #2d2d2d; }
+=======
+  margin-bottom: 0; }
+  .blog-archive-item h2 a, .events-archive-item h2 a {
+    color: #003b76; }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 .blog-archive-item:not(:last-child), .events-archive-item:not(:last-child) {
   padding-bottom: 1.5rem;
   border-bottom: 1px solid #cacaca; }
@@ -1092,17 +1169,27 @@ main a:not(.button):hover {
   margin-bottom: .5rem; }
   .post-taxonomies a, .event-taxonomy-links a {
     font-weight: 600;
+<<<<<<< HEAD
     color: #a6792c; }
     .post-taxonomies a:hover, .event-taxonomy-links a:hover {
       text-decoration: underline;
       color: #a6792c; }
+=======
+    color: #0d8896; }
+    .post-taxonomies a:hover, .event-taxonomy-links a:hover {
+      text-decoration: underline; }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 
 .blog-single-inner {
   padding-top: 2rem;
   box-sizing: border-box; }
   .blog-single-inner h1 {
+<<<<<<< HEAD
     color: #2d2d2d;
     font-weight: 500;
+=======
+    color: #003b76;
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
     line-height: 100%; }
   .blog-single-inner .wp-post-image {
     margin: 2rem 0; }
@@ -1114,12 +1201,15 @@ main a:not(.button):hover {
   #blog-sidebar {
     padding-top: 1.5rem;
     border-top: 1px solid #cacaca; } }
+<<<<<<< HEAD
 aside h2, .ss-sidebar h2 {
   font-weight: 500 !important; }
 
 .comments-title {
   font-weight: 500; }
 
+=======
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 /*******************************************
 2.8 SEARCH RESULTS PAGE STYLES
 *******************************************/
@@ -1130,7 +1220,11 @@ aside h2, .ss-sidebar h2 {
   font-family: "Raleway", sans-serif !important;
   font-size: 1.3125rem !important;
   font-weight: 700 !important;
+<<<<<<< HEAD
   color: #a81f17 !important; }
+=======
+  color: #0d8896 !important; }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 
 .gsc-result .gs-title {
   height: 2.25rem !important; }
@@ -1162,15 +1256,26 @@ aside h2, .ss-sidebar h2 {
 ************************************************/
 #event-content h1 {
   font-weight: 400;
+<<<<<<< HEAD
   color: #2d2d2d;
   padding-right: 1.5rem;
+=======
+  color: #003b76;
+  padding-right: 1.5rem;
+  border-bottom: 2px solid #0d8896;
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
   margin-bottom: 1rem;
   display: inline-block; }
 #event-content h2.subheading {
   font-size: 1.25rem;
+<<<<<<< HEAD
   color: #a81f17;
   font-weight: 600;
   font-style: italic; }
+=======
+  text-transform: uppercase;
+  color: #a81f17; }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 
 .event-info {
   font-family: "Raleway", sans-serif;
@@ -1178,7 +1283,11 @@ aside h2, .ss-sidebar h2 {
   .event-info .info-label {
     font-weight: 700; }
   .event-info a span {
+<<<<<<< HEAD
     color: #a81f17;
+=======
+    color: #0d8896;
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
     font-weight: 600; }
     .event-info a span:hover {
       text-decoration: underline; }
@@ -1189,7 +1298,12 @@ aside h2, .ss-sidebar h2 {
   margin-bottom: .5rem;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+<<<<<<< HEAD
   color: #a6792c; }
+=======
+  text-transform: uppercase;
+  color: #0d8896; }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 .event-social-sharing .menu > li > a {
   padding: 0;
   margin-right: .5rem; }
@@ -1375,6 +1489,7 @@ header:not(.article-header):not(.entry-header) {
   background-color: #2d2d2d;
   margin-top: 1.65rem !important;
   box-shadow: 0 2px 10px 2px rgba(10, 10, 10, 0.25);
+<<<<<<< HEAD
   padding: 1rem 0; }
   #search-container .button {
     margin-bottom: 0;
@@ -1403,15 +1518,21 @@ header:not(.article-header):not(.entry-header) {
   @media screen and (min-width: 64em) and (max-width: 65.5625em) {
     #search-container #s {
       width: 800px; } }
+=======
+  padding: .5rem 0; }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 
 .smaller #search-container {
   margin-top: .5rem !important; }
 
+<<<<<<< HEAD
 .off-canvas .widget_search {
   padding: .5rem 1rem; }
   .off-canvas .widget_search #s {
     width: 215px; }
 
+=======
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 header input.gsc-search-button {
   border: 1px solid #fefefe !important;
   color: #fefefe !important;
@@ -1487,7 +1608,11 @@ Section 5: Navigation
     color: #fefefe;
     padding-top: 1rem;
     padding-bottom: 1rem;
+<<<<<<< HEAD
     border-bottom: 1px solid #616161; }
+=======
+    border-bottom: 1px solid #a81f17; }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
     .off-canvas .menu li a:hover {
       text-decoration: none; }
     .off-canvas .menu li a::after {
@@ -1498,7 +1623,11 @@ Section 5: Navigation
     .off-canvas .menu li .submenu li a::before {
       content: "-"; }
   .off-canvas .menu#menu-main-nav li:first-child a {
+<<<<<<< HEAD
     border-top: 1px solid #616161; }
+=======
+    border-top: 1px solid #a81f17; }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
   .off-canvas.position-right {
     width: 400px;
     right: -400px;
@@ -1543,8 +1672,12 @@ footer {
 .footer-inner a {
   color: #fefefe; }
   .footer-inner a:hover {
+<<<<<<< HEAD
     text-decoration: underline;
     color: #fefefe; }
+=======
+    text-decoration: underline; }
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 
 .footer-logo {
   margin-bottom: 2rem; }
