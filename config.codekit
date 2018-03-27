@@ -393,6 +393,10 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 	"\/images\/LCCC-Campana-logo-white.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -415,6 +419,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
+>>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 	"\/images\/LCCC-Logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -481,6 +490,23 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+	"\/images\/Spitzer-Conference-Center-Logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32180,
+		"inputAbbreviatedPath": "\/images\/Spitzer-Conference-Center-Logo.jpg",
+		"outputAbbreviatedPath": "\/images\/Spitzer-Conference-Center-Logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
+>>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 	"\/images\/thumbnail_biostudent.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -621,7 +647,15 @@
 		},
 	"\/js\/min\/instafeed.min-min.js": {
 		"fileType": 64,
+<<<<<<< HEAD
 		"ignore": 1,
+=======
+<<<<<<< HEAD
+		"ignore": 1,
+=======
+		"ignore": 0,
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
+>>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/instafeed.min-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/instafeed.min-min-min.js",
@@ -1246,6 +1280,10 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 	"\/template-parts\/content-banner.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1255,6 +1293,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
+>>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 	"\/template-parts\/content-breadcrumb.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1534,6 +1577,21 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+	"\/template-parts\/home-community.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/template-parts\/home-community.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
+>>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 	"\/template-parts\/home-connect.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1633,6 +1691,21 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+	"\/template-parts\/section-carousel.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/template-parts\/section-carousel.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
+>>>>>>> 846f18da51f939162dfd9deb1b9e3a1c9833d93b
 	"\/template-parts\/untitled.html": {
 		"fileType": 8192,
 		"ignore": 0,
