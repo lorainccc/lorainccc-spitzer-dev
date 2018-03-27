@@ -558,45 +558,43 @@ main a:not(.button):hover {
   margin-bottom: 2rem; }
 
 /* Visit Spitzer Section */
-#visit-spitzer, #contact {
-  margin-top: 4rem; }
-  #visit-spitzer .section-title-row .h2-subheading, #contact .section-title-row .h2-subheading {
-    margin-top: 1rem; }
-  @media screen and (min-width: 40em) {
-    #visit-spitzer .location-info, #contact .location-info {
-      padding-right: 4rem; } }
-  @media screen and (max-width: 39.9375em) {
-    #visit-spitzer .location-info iframe, #contact .location-info iframe {
-      pointer-events: none; } }
-  #visit-spitzer .location-info h3, #contact .location-info h3 {
-    font-size: 1.3125rem;
-    font-weight: 700;
-    color: #a6792c; }
-  #visit-spitzer .location-info .span-block, #contact .location-info .span-block {
-    display: block; }
-  #visit-spitzer .location-info .map-container, #contact .location-info .map-container {
-    margin-bottom: 1.5rem; }
-  @media screen and (min-width: 40em) {
-    #visit-spitzer .tour-form, #visit-spitzer .contact-form, #contact .tour-form, #contact .contact-form {
-      border-left: 1px solid rgba(10, 10, 10, 0.25);
-      padding-left: 4rem; } }
-  @media screen and (max-width: 39.9375em) {
-    #visit-spitzer .tour-form, #visit-spitzer .contact-form, #contact .tour-form, #contact .contact-form {
-      margin-top: 2rem; } }
-  #visit-spitzer .tour-form h3, #visit-spitzer .contact-form h3, #contact .tour-form h3, #contact .contact-form h3 {
-    font-size: 1.8125rem;
-    font-style: italic;
-    font-weight: 600;
-    color: #a81f17; }
-  #visit-spitzer .gform_wrapper .gform_footer input.button, #visit-spitzer .gform_wrapper .gform_footer input[type=submit], #visit-spitzer .gform_wrapper .gform_page_footer input.button, #visit-spitzer .gform_wrapper .gform_page_footer input[type=submit], #contact .gform_wrapper .gform_footer input.button, #contact .gform_wrapper .gform_footer input[type=submit], #contact .gform_wrapper .gform_page_footer input.button, #contact .gform_wrapper .gform_page_footer input[type=submit] {
-    font-family: "Raleway", sans-serif;
-    font-size: 1rem;
-    font-weight: 700; }
-    #visit-spitzer .gform_wrapper .gform_footer input.button:not(.hollow), #visit-spitzer .gform_wrapper .gform_footer input[type=submit]:not(.hollow), #visit-spitzer .gform_wrapper .gform_page_footer input.button:not(.hollow), #visit-spitzer .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow), #contact .gform_wrapper .gform_footer input.button:not(.hollow), #contact .gform_wrapper .gform_footer input[type=submit]:not(.hollow), #contact .gform_wrapper .gform_page_footer input.button:not(.hollow), #contact .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow) {
-      background-color: #a6792c;
-      transition: background-color 0.25s ease-out, color 0.25s ease-out; }
-      #visit-spitzer .gform_wrapper .gform_footer input.button:not(.hollow):hover, #visit-spitzer .gform_wrapper .gform_footer input[type=submit]:not(.hollow):hover, #visit-spitzer .gform_wrapper .gform_page_footer input.button:not(.hollow):hover, #visit-spitzer .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow):hover, #contact .gform_wrapper .gform_footer input.button:not(.hollow):hover, #contact .gform_wrapper .gform_footer input[type=submit]:not(.hollow):hover, #contact .gform_wrapper .gform_page_footer input.button:not(.hollow):hover, #contact .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow):hover {
-        background-color: #966e29; }
+#visit-spitzer .section-title-row .h2-subheading, #contact .section-title-row .h2-subheading {
+  margin-top: 1rem; }
+@media screen and (min-width: 40em) {
+  #visit-spitzer .location-info, #contact .location-info {
+    padding-right: 4rem; } }
+@media screen and (max-width: 39.9375em) {
+  #visit-spitzer .location-info iframe, #contact .location-info iframe {
+    pointer-events: none; } }
+#visit-spitzer .location-info h3, #contact .location-info h3 {
+  font-size: 1.3125rem;
+  font-weight: 700;
+  color: #a6792c; }
+#visit-spitzer .location-info .span-block, #contact .location-info .span-block {
+  display: block; }
+#visit-spitzer .location-info .map-container, #contact .location-info .map-container {
+  margin-bottom: 1.5rem; }
+@media screen and (min-width: 40em) {
+  #visit-spitzer .tour-form, #visit-spitzer .contact-form, #contact .tour-form, #contact .contact-form {
+    border-left: 1px solid rgba(10, 10, 10, 0.25);
+    padding-left: 4rem; } }
+@media screen and (max-width: 39.9375em) {
+  #visit-spitzer .tour-form, #visit-spitzer .contact-form, #contact .tour-form, #contact .contact-form {
+    margin-top: 2rem; } }
+#visit-spitzer .tour-form h3, #visit-spitzer .contact-form h3, #contact .tour-form h3, #contact .contact-form h3 {
+  font-size: 1.8125rem;
+  font-style: italic;
+  font-weight: 600;
+  color: #a81f17; }
+#visit-spitzer .gform_wrapper .gform_footer input.button, #visit-spitzer .gform_wrapper .gform_footer input[type=submit], #visit-spitzer .gform_wrapper .gform_page_footer input.button, #visit-spitzer .gform_wrapper .gform_page_footer input[type=submit], #contact .gform_wrapper .gform_footer input.button, #contact .gform_wrapper .gform_footer input[type=submit], #contact .gform_wrapper .gform_page_footer input.button, #contact .gform_wrapper .gform_page_footer input[type=submit] {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 700; }
+  #visit-spitzer .gform_wrapper .gform_footer input.button:not(.hollow), #visit-spitzer .gform_wrapper .gform_footer input[type=submit]:not(.hollow), #visit-spitzer .gform_wrapper .gform_page_footer input.button:not(.hollow), #visit-spitzer .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow), #contact .gform_wrapper .gform_footer input.button:not(.hollow), #contact .gform_wrapper .gform_footer input[type=submit]:not(.hollow), #contact .gform_wrapper .gform_page_footer input.button:not(.hollow), #contact .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow) {
+    background-color: #a6792c;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out; }
+    #visit-spitzer .gform_wrapper .gform_footer input.button:not(.hollow):hover, #visit-spitzer .gform_wrapper .gform_footer input[type=submit]:not(.hollow):hover, #visit-spitzer .gform_wrapper .gform_page_footer input.button:not(.hollow):hover, #visit-spitzer .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow):hover, #contact .gform_wrapper .gform_footer input.button:not(.hollow):hover, #contact .gform_wrapper .gform_footer input[type=submit]:not(.hollow):hover, #contact .gform_wrapper .gform_page_footer input.button:not(.hollow):hover, #contact .gform_wrapper .gform_page_footer input[type=submit]:not(.hollow):hover {
+      background-color: #966e29; }
 
 #contact h2 {
   font-size: 1.8125rem;

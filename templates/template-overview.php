@@ -23,6 +23,8 @@ Template Name: Overview
 		
 		get_template_part( 'template-parts/content', 'flexible' );
 		
+		get_template_part( 'template-parts/content', 'shadow-divider');
+		
 		get_template_part( 'template-parts/content', 'tour' );
 		
 		?>
