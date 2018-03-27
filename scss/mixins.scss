@@ -1,0 +1,33 @@
+/*! 
+Mixins Section: LCCC Mixins
+*/
+/*************************
+SASS Mixins
+*************************/
+
+
+
+/*************************
+SASS Functions
+*************************/
+
+// Tint Function
+
+@function tint($color, $percentage) {
+  @return mix($white, $color, $percentage);
+}
+
+// Shade Function
+
+@function shade($color, $percentage) {
+  @return mix($black, $color, $percentage);
+}
+
+// REM CALC
+
+
+@function rem-calc($values) {
+  $remValue: $values / 16;
+  $remValue: $remValue + rem;
+  @return $remValue;
+}
