@@ -127,7 +127,11 @@ Section 5: Navigation
 					top: 1rem;
 					bottom: 1rem;
 				}
+<<<<<<< HEAD
 				border-bottom: 1px solid tint($charcoal, 25%);
+=======
+				border-bottom: 1px solid $spitzer;
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 				
 				&:hover {
 					text-decoration: none;
@@ -154,7 +158,11 @@ Section 5: Navigation
 		}
 		
 		&#menu-main-nav li:first-child a  {
+<<<<<<< HEAD
 			border-top: 1px solid tint($charcoal, 25%);
+=======
+			border-top: 1px solid $spitzer;
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 		}
 	}
 	

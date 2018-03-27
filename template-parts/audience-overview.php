@@ -82,7 +82,11 @@ if( have_rows('overview_spotlights') ) :
 			 
 	if( $spotlight_title ) :
 			 
+<<<<<<< HEAD
 		echo '<h3 class="spitzer-h3">' . $spotlight_title . '</h3>';
+=======
+		echo '<h3 class="orange-h3">' . $spotlight_title . '</h3>';
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
 			 
 	endif;
 			 

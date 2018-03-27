@@ -310,12 +310,21 @@ add_action('wp_footer', 'offcanvas_tab_index', 200 );
 
 
 
+<<<<<<< HEAD
 // Customize HTML of WP Search form
 function my_search_form( $form ) {
     $form = '<form role="search" method="get" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
     <div class="search-form-row"><div class="search-input"><label class="screen-reader-text" for="s">' . __( 'Search for:' ) . '</label>
     <input type="text" value="' . get_search_query() . '" name="s" id="s" /></div><div class="search-button">
     <input type="submit" id="searchsubmit" class="button" value="'. esc_attr__( 'Search' ) .'" /></div>
+=======
+
+function my_search_form( $form ) {
+    $form = '<form role="search" method="get" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
+    <div class="row"><div class="small-12 large-10 columns"><label class="screen-reader-text" for="s">' . __( 'Search for:' ) . '</label>
+    <input type="text" value="' . get_search_query() . '" name="s" id="s" /></div><div class="small-12 large-2 columns">
+    <input type="submit" id="searchsubmit" class="button hollow" value="'. esc_attr__( 'Search' ) .'" /></div>
+>>>>>>> 84cf8732e945ccd80fadbd4fb2dbe33d23a27dbf
     </div>
     </form>';
 
