@@ -4,7 +4,7 @@
 	
 		<div class="top-bar-title">
 		
-			<a href="<?php echo home_url(); ?>" title="Link to Homepage"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Spitzer-Conference-Center-Logo.png" alt="Campana Center for Ideation and Invention of Lorain County Community College" class="logo" height="59" width="338"/></a>
+			<a href="<?php echo home_url(); ?>" title="Link to Homepage"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Spitzer-Conference-Center-Logo.png" alt="Campana Center for Ideation and Invention of Lorain County Community College" class="logo" height="55" width="341"/></a>
 			
 		</div>
 		
