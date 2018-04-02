@@ -359,6 +359,9 @@ p {
 a:not(.button), a:not(.button):hover {
   color: #a81f17; }
 
+ul, ol, dl {
+  list-style-position: inside !important; }
+
 @media screen and (max-width: 39.9375em) {
   #content {
     position: relative; } }
