@@ -493,7 +493,7 @@ main a:not(.button):hover {
       #page-banner .banner-inner {
         height: 29.062125rem; }
         #page-banner .banner-inner h1, #page-banner .banner-inner .fake-h1 {
-          font-size: 6rem; } }
+          font-size: 5rem; } }
 
 /* Flexible Content */
 .flexible-content-area > div:not(:last-child) {
@@ -653,7 +653,7 @@ main a:not(.button):hover {
       .home-banner-bg .home-banner-inner {
         height: 35.4605rem; }
         .home-banner-bg .home-banner-inner h1 {
-          font-size: 6rem; } }
+          font-size: 5rem; } }
 
 #home-banner {
   /*
