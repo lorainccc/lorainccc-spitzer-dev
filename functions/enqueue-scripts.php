@@ -92,3 +92,13 @@ function my_admin_enqueue_scripts() {
 }
 
 add_action('admin_enqueue_scripts', 'my_admin_enqueue_scripts');
+
+
+// Adding FadeShow jquery plugin
+function load_fadeshow_assets() {
+	if( is_front_page() ) {
+		wp_enqueue_style( 'fadeshow-css', get_stylesheet_directory_uri() . '/fadeShow/css/jquery.fadeshow-0.1.1.min.css', array(), null, 'all' );
+		wp_enqueue_script( 'fadeshow-js', get_stylesheet_directory_uri() . '/fadeShow/js/jquery.fadeshow-0.1.2.min.js', array( 'jquery' ), null, true );
+	}
+}
+add_action('wp_enqueue_scripts', 'load_fadeshow_assets', 1000);

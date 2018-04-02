@@ -35,27 +35,19 @@ $facebook_url = get_field('facebook_url', 'option');
 						
 							<div class="small-12 medium-4 columns">
 							
-								<img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/Spitzer-Conference-Center-Logo-White.png" alt="Lorain County Community College" width="341" height="55"/>
+								<img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/lccclogo-white.svg" alt="Lorain County Community College" width="220" height="42.5"/>
 								
 								<?php if( $twitter_url || $instagram_url || $facebook_url ) : ?>
 								
-								<h2>Connect With Us</h2>
+								<h2>Connect Heading Needed</h2>
 								
 								<ul class="footer-sm-links menu">
 								
-									<?php if( $facebook_url ) : ?>
+									<?php if( $twitter_url ) : ?>
 									
 									<li><a href="<?php echo $facebook_url; ?>" title="Follow [insert name] on Facebook" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/facebook_white.svg" alt="Facebook icon" height="30" width="30" /></a></li>
 									
-									<?php endif; 
-									
-									if( $twitter_url ) : ?>
-									
 									<li><a href="<?php echo $twitter_url; ?>" title="Follow [insert name] on Twitter" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/twitter_white.svg" alt="Twitter icon" height="30" width="30" /></a></li>
-									
-									<?php endif; 
-									
-									if( $instagram_url ) : ?>
 									
 									<li><a href="<?php echo $instagram_url; ?>" title="Follow [insert name] on Instagram" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/instagram_white.svg" alt="Instagram icon" height="30" width="30" /></a></li>
 									

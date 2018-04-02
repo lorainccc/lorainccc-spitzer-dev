@@ -407,5 +407,29 @@ function custom_fields_to_excerpts($content, $post, $query) {
 	
 }
 
+// Initialize FadeShow on homepage
+
+function fadeshow_init() {
+	if( is_front_page() ) {
+		$id = get_option('page_on_front');
+		$banner_bgs = get_field('banner_images', $id);
+		$speed = get_field('transition_speed', $id) * 1000;
+		$bg_count = count($banner_bgs);
+		$counter = 1;
+?>
+<script>
+	jQuery('.home-banner-bg').fadeShow({
+		correctRatio: true,
+		shuffle: false,
+		speed: <?php echo $speed; ?>,
+		images: [<?php foreach($banner_bgs as $bg) : echo "'" . $bg['url'] . "'"; if($counter < $bg_count) : echo ', '; endif; $counter++; endforeach; ?>]
+	});
+</script>
+<?php
+		
+	}
+}
+add_action('wp_footer', 'fadeshow_init', 9999);
+
 
 ?>

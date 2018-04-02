@@ -137,6 +137,37 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/fadeShow\/css\/jquery.fadeshow-0.1.1.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fadeShow\/css\/jquery.fadeshow-0.1.1.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fadeShow\/js\/jquery-1.11.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fadeShow\/js\/jquery-1.11.2.min.js",
+		"outputAbbreviatedPath": "\/fadeShow\/js\/min\/jquery-1.11.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/fadeShow\/js\/jquery.fadeshow-0.1.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fadeShow\/js\/jquery.fadeshow-0.1.2.min.js",
+		"outputAbbreviatedPath": "\/fadeShow\/js\/min\/jquery.fadeshow-0.1.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/footer-old.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -393,28 +424,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/LCCC-Campana-logo-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 102473,
-		"inputAbbreviatedPath": "\/images\/LCCC-Campana-logo-white.png",
-		"outputAbbreviatedPath": "\/images\/LCCC-Campana-logo-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/lccc-culinary-logo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 281319,
-		"inputAbbreviatedPath": "\/images\/lccc-culinary-logo.jpg",
-		"outputAbbreviatedPath": "\/images\/lccc-culinary-logo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/LCCC-Logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -477,6 +486,17 @@
 		"initialSize": 2541,
 		"inputAbbreviatedPath": "\/images\/placeholder-170x170.jpg",
 		"outputAbbreviatedPath": "\/images\/placeholder-170x170.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Spitzer-Conference-Center-Logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32180,
+		"inputAbbreviatedPath": "\/images\/Spitzer-Conference-Center-Logo.jpg",
+		"outputAbbreviatedPath": "\/images\/Spitzer-Conference-Center-Logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1534,6 +1554,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/template-parts\/home-community.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/template-parts\/home-community.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/template-parts\/home-connect.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1629,6 +1658,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/template-parts\/overview-top.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/template-parts\/section-carousel.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/template-parts\/section-carousel.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
