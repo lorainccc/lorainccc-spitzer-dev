@@ -43,7 +43,15 @@ $community_sub_heading = get_field('community_sub_heading');
 			$title = get_sub_field('title');
 			$description = get_sub_field('description');
 			$link_text = get_sub_field('link_text');
-			$page_link = get_sub_field('page_link');
+			$link_type = get_sub_field('link_type');
+		
+			if( $link_type == 'internal' ) :
+				$page_link = get_sub_field('page_link');
+				$link_target = '';
+			elseif( $link_type == 'external' ) :
+				$page_link = get_sub_field('external_url');
+				$link_target = ' target="_blank"';
+			endif;
 		
 		?>
 		
@@ -67,7 +75,7 @@ $community_sub_heading = get_field('community_sub_heading');
 
 					if( $link_text && $page_link ) :
 
-						echo '<a href="' . $page_link . '" class="read-more">' . $link_text . ' &raquo;</a>';
+						echo '<a href="' . $page_link . '" class="read-more"' . $link_target . '>' . $link_text . ' &raquo;</a>';
 
 					endif;
 
